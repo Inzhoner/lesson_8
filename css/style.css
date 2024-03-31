@@ -2,7 +2,7 @@
 @import url(reset.css);
 
 .graphics__wrapper {
-    border-color: aquamarine;
+    background-color: aquamarine;
 }
 
 .graphics__container {
@@ -10,7 +10,6 @@
     box-sizing: content-box;
     margin-inline: auto;
     padding: 50px 0;
-    font-family: 'roboto', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
+    font-family: 'NinaC';
+    font-size: 40px;
 }
