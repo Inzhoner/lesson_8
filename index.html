@@ -1,75 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Урок 8</title>
 </head>
+
 <body>
     <div class="graphics__wrapper">
         <div class="graphics__container">
-          <div class="web-graphics__block">
-            <img src="./img/question.svg" alt="#">
-            <span>- іконка, векторне, svg.</span>
-          </div>
-          <div class="web-graphics__block">
-            <img src="./img/Group-1.svg" alt="#">
-            <span>- контент, векторне, svg.</span>
-          </div>
-          <div class="web-graphics__block">
-            <img src="./img/Group-2.svg" alt="#">
-            <span>- контент, векторне, svg.</span>
-          </div>
-          <div class="web-graphics__block">
-            <img src="./img/Group-3.svg" alt="#">
-            <span>- контент, векторне, svg.</span>
-          </div>
-          <div class="web-graphics__block">
-            <img src="./img/Group-4.svg" alt="#">
-            <span>- контент, векторне, svg.</span>
-          </div>
-          <div class="web-graphics__block">
-            <img src="./img/pay-1.svg" alt="#">
-            <span>- контент, векторне, svg.</span>
-          </div>
-          <div class="web-graphics__block">
-            <img src="./img/pay-2.svg" alt="#">
-            <span>- контент, векторне, svg.</span>
-          </div>
-          <div class="web-graphics__block">
-            <img src="./img/pay-3.svg" alt="#">
-            <span>- контент, векторне, svg.</span>
-          </div>
-          <div class="web-graphics__block">
-            <img src="./img/pay-4.svg" alt="#">
-            <span>- контент, векторне, svg.</span>
-          </div>
-          <div class="web-graphics__block">
-            <img src="./img/pay-5.svg" alt="#">
-            <span>- контент, векторне, svg.</span>
-          </div>
-          <div class="web-graphics__block">
-            <img src="./img/pay-6.svg" alt="#">
-            <span>- контент, векторне, svg.</span>
-          </div>
-          <div class="web-graphics__block">
-            <img src="./img/pay-7.svg" alt="#">
-            <span>- контент, векторне, svg.</span>
-          </div>
-          <div class="web-graphics__block web-graphics-block-png">
-            <img src="./img/img.png" alt="#">
-            <span>- контент, растрове, jpg ~ webp. займає 23 кб</span>
-          </div>
-          <div class="web-graphics__block web-graphics-block-png">
-            <img src="./img/img.webp" alt="#">
-            <span>- контент, растрове, jpg ~ png. займає 246 кб</span>
-          </div>
-          <div class="web-graphics__block web-graphics-block-change-image">
-            <img srcset="img/rectangle-2x.webp 2x, img/rectangle-4x.png 3x" src="./img/rectangle-1x.webp" alt="#">
-            <span>- фонове, растрове, webp ~ png.(з зміною зображення при більших екранах)</span>
-          </div>
+            <div class="graphics__block">
+                <img src="./img/question-icon.svg" alt="#">
+                <span>- іконка, векторне, svg.</span>
+            </div>
+            <div class="graphics__block">
+                <img src="./img/delivery-icon.svg" alt="#">
+                <span>- контент, векторне, svg.</span>
+            </div>
+            <div class="graphics__block">
+                <img src="./img/collection-icon.svg" alt="#">
+                <span>- контент, векторне, svg.</span>
+            </div>
+            <div class="graphics__block">
+                <img src="./img/service-icon.svg" alt="#">
+                <span>- контент, векторне, svg.</span>
+            </div>
+            <div class="graphics__block">
+                <img src="./img/discounts-icon.svg" alt="#">
+                <span>- контент, векторне, svg.</span>
+            </div>
+            <div class="graphics__block">
+                <img src="./img/payment-in-Ukraine.svg" alt="#">
+                <span>- контент, векторне, svg.</span>
+            </div>
+            <div class="graphics__block">
+                <img src="./img/Installment-icon.svg" alt="#">
+                <span>- контент, векторне, svg.</span>
+            </div>
+            <div class="graphics__block">
+                <img src="./img/subscription-icon.svg" alt="#">
+                <span>- контент, векторне, svg.</span>
+            </div>
+            <div class="graphics__block">
+                <img src="./img/terminal-icon.svg" alt="#">
+                <span>- контент, векторне, svg.</span>
+            </div>
+            <div class="graphics__block">
+                <img src="./img/bank-icon.svg" alt="#">
+                <span>- контент, векторне, svg.</span>
+            </div>
+            <div class="graphics__block">
+                <img src="./img/cash-icon.svg" alt="#">
+                <span>- контент, векторне, svg.</span>
+            </div>
+            <div class="graphics__block">
+                <img src="./img/postpaid-icon.svg" alt="#">
+                <span>- контент, векторне, svg.</span>
+            </div>
+
+
+            <div class="graphics__block">
+                <img src="./img/first-screen_jpg.jpg" alt="#">
+                <span>- контент, растрове, jpg</span>
+            </div>
+
+
+            <div class="graphics__block">
+                <img src="./img/first-screen_png.png" alt="#">
+                <span>- контент, растрове, png</span>
+            </div>
+
+            <div class="graphics__block">
+                <img src="./img/first-screen_jpg--webp.webp" alt="#">
+                <span>- контент, растрове, jpg -- webp</span>
+            </div>
+
+            <div class="graphics__block">
+                <img src="./img/first-screen_png--webp.webp" alt="#">
+                <span>- контент, растрове, png -- webp </span>
+            </div>
+            <div class="graphics__block img">
+                <img src="img/kitchen.jpg" srcset="img/kitchen-x2.jpg 2x, img/kitchen-x3.jpg 3x," alt="image">
+            </div>
+
+
+            <!-- <div class="graphics__block web-graphics-block-change-image">
+                <img srcset="img/rectangle-2x.webp 2x, img/rectangle-4x.png 3x" src="./img/rectangle-1x.webp" alt="#">
+            </div> -->
         </div>
-      </div>
+    </div>
+    <div class="container">
+        <div class="q1 style">
+            <img src="./img/delivery-icon.svg" alt="#">
+        </div>
+        <div class="q2 style">
+            <img src="./img/collection-icon.svg" alt="#">
+        </div>
+        <div class="q3 style">
+            <img src="./img/service-icon.svg" alt="#">
+        </div>
+        <div class="q4 style">
+            <img src="./img/discounts-icon.svg" alt="#">
+        </div>
+        <div class="w1 style"><img src="./img/postpaid-icon.svg" alt="#"></div>
+        <div class="w2 style"><img src="./img/cash-icon.svg" alt="#"></div>
+        <div class="w3 style"><img src="./img/bank-icon.svg" alt="#"></div>
+        <div class="w4 style"><img src="./img/terminal-icon.svg" alt="#"></div>
+        <div class="e1 style">
+            <img src="./img/payment-in-Ukraine.svg" alt="#">
+        </div>
+        <div class="e2 style">
+            <img src="./img/Installment-icon.svg" alt="#">
+        </div>
+        <div class="e3 style">
+            <img src="./img/subscription-icon.svg" alt="#">
+        </div>
+        <div class="r1 style">
+            <img src="./img/question-icon.svg" alt="#"></s>
+        </div>
+        <div class="z1 style"><img src="./img/first-screen_jpg.jpg" alt="#"></div>
+        <div class="z2 style"><img src="./img/first-screen_png.png" alt="#"></div>
+        <div class="z3 style"><img src="./img/first-screen_jpg--webp.webp" alt="#"></div>
+        <div class="z4 style"><img src="./img/first-screen_png--webp.webp" alt="#"></div>
+        <div class="x1 style">
+            <img src="" alt="">
+        </div>
+        <div class="x2 style">x2</div>
+        <div class="x3 style">x3</div>
+    </div>
 </body>
+
 </html>
